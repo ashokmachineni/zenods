@@ -39,7 +39,7 @@ export default class Zenodo extends Component {
               title: values.title,
               upload_type: "dataset",
               description: values.description,
-              creators: [{ name: "Kaveri", affiliation: "project" }]
+              creators: [{ name: "ashok", affiliation: "project" }]
             }
           });
           var config = {
@@ -133,7 +133,7 @@ export default class Zenodo extends Component {
                 id="description"
                 as="textarea"
                 rows={3}
-                placeholder="Enter description"
+                placeholder="Enter descr"
                 onChange={handleChange}
                 onBlur={handleBlur}
                 value={values.description}
