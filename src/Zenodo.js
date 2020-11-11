@@ -170,7 +170,10 @@ export default class Zenodo extends Component {
               <Alert variant="primary">
                 <p>Doi No: {this.state.doiNo}</p>
                 <p>
-                  Link: <a href={this.state.link}>{this.state.link}</a>
+                  Link:{" "}
+                  <a href={this.state.link} target="_blank">
+                    {this.state.link}
+                  </a>
                 </p>
               </Alert>
             )}
