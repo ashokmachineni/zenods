@@ -169,7 +169,9 @@ export default class Zenodo extends Component {
             {this.state.isSuccess && (
               <Alert variant="primary">
                 <p>Doi No: {this.state.doiNo}</p>
-                <p>Link: {this.state.link}</p>
+                <p>
+                  Link: <a>{this.state.link}</a>
+                </p>
               </Alert>
             )}
           </Form>
